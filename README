@@ -1,0 +1,18 @@
+# cantools
+
+A set of tools for working with CAN and J1939.
+
+## Requirements
+For now cantools only works with Kvaser hardware and only with Kvasers
+canlib.
+
+## Usage
+To view CAN traffic:
+
+   canview
+   
+To view J1939 traffic:
+
+   canview | j1939decomp
+   
+

@@ -1,0 +1,39 @@
+Name:                cantools
+Version:             0.1
+
+Synopsis:            Tools for working with CAN and J1939
+
+Description:         
+
+Homepage:            https://github.com/pdixon/cantools
+
+License:             BSD3
+License-file:        LICENSE
+
+Author:              Phil Dixon
+Maintainer:          phil@dixon.gen.nz
+
+-- A copyright notice.
+-- Copyright:           
+
+Category:            Embedded, Utils
+
+Build-type:          Simple
+
+Extra-source-files:
+        README
+
+Cabal-version:       >=1.2
+
+Executable canview
+    Main-is: CANView.hs            
+  
+  -- Packages needed in order to build this package.
+  -- Build-depends:       
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:         
+  
